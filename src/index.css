@@ -5,4 +5,16 @@
 
 body{
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.row .col-6 {
+  padding: 5px;
+  height: auto;
+}
+
+.row .col-6 img {
+  object-fit: cover;
+  height: 100%;
 }
