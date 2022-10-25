@@ -11,7 +11,7 @@ function App() {
             <Navbar />
             <div className='container'>
                 <div className='row mt-4'>
-                    {images.map((val,index) => {
+                    {images.map((val, index) => {
                         return <Card key={index} img={val.imgurl} />;
                     })}
                 </div>
